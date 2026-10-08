@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+  }
+}
+
+@media print {
+  @page {
+    margin: 15mm 15mm;
+    size: A4 portrait;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  aside, header, nav, .no-print, button {
+    display: none !important;
+  }
+}

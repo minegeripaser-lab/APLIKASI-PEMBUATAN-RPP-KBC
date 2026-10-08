@@ -1,0 +1,6 @@
+{
+  "name": "RPP KBC GENERATOR 2026",
+  "description": "Aplikasi Generator RPP Kurikulum Berbasis Cinta (KBC) 2026 jenjang Madrasah Ibtidaiyah (MI) - MIN 1 Paser dengan Manajemen Mata Pelajaran MI, RBAC Pengguna, Master Data Dinamis, dan Audit Log.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
